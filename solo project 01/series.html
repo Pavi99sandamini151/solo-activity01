@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+  <head>
+    <title>code with rana</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+        <div class="mybox">
+            <div class="container">
+                <h1 class="ftitle">Say Hello!</h1>
+                <div class="inputcontainer">
+                    <label class="inputlabel">Your Name</label>
+                
+                <br>
+                <input type="text" placeholder="enter your name">
+                <br>  
+                    <label class="inputlabel">Email</label>
+                    <br>
+                    <input type="text" placeholder="enter your email adrress">
+                <br>
+                    <label class="inputlabel">Needed services</label>
+                    <br>
+                    
+                    <input list="select" name="services" placeholder="select services">
+                    <datalist id="select">
+                      <option value="web development">
+                      <option value="content writing">
+                      <option value="logistics">
+                      </datalist>
+
+                     <!-- <select class="selection_one">
+                        <option value="sel">select services</option>
+                        <option value="web">web development</option>
+                        <option value="con">content writting</option>
+                        <option value="log">logistics</option>
+                      </select>-->
+                      
+                <br>
+                    <label class="inputlabel">Budget</label>
+                    <br>
+                    <!-- add list-->
+                    <input list="bud" name="budget" placeholder="select budget">
+                    <datalist id="bud">
+                      <option value="230$">
+                      <option value="596$">
+                      <option value="1239$">
+                    </datalist>
+                <br>
+                    <label class="inputlabel">Message</label>
+                    <br>
+                    <textarea id="msg" cols="47" rows="4" placeholder="enter your message here"></textarea>
+                <br>
+                <br>
+                    <input  class="sub_button" type="submit"  value="submit->">
+                </div>
+
+
+            </div> 
+        </div>
+        
+  </body>
+</html>
